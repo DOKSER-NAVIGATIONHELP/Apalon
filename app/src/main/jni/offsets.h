@@ -201,6 +201,13 @@ namespace Offsets {
 		GetDimensionBlockSource = 0x88B572A,//Actor::getDimensionBlockSource
 		GetBlock = 0x8CD120C,//BlockSource::getBlock
 		IsAir = 0x9182C46,//Block::isAir
+		// Auto Totem - NOT USED (using direct memory)
+		ContainerGetItem = 0x0,
+		ContainerSetItem = 0x0,
+		ContainerGetSize = 0x0,
+		SuppliesGetContainer = 0x0,
+		PlayerGetArmorContainer = 0x0,
+		PlayerGetSupplies = 0x0,
 	};
 }
 
