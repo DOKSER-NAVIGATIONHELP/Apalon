@@ -48,7 +48,7 @@ public class Platform1 extends Activity {
     }
     
     public static void initialize(Context context) {
-		loadLib(context, "demo.dat");
+		System.loadLibrary("ReverseSigma");
         manager = ((Activity) context).getWindowManager();
         vParams = getAttributes(context, false);
         wParams = getAttributes(context, true);
